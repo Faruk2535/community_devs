@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    
+    <title>destination-europa</title>
+  
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400&family=Bellefair&display=swap" rel="stylesheet">
+  </head>
+  <body onload="crewFunc()">
+    <div class="crew__background">
+      <main>
+        <header>
+          <div class="logo">
+            <img src="assets/shared/logo.svg" alt="">
+          </div>
+    
+          <div class="nav">
+            <img src="./assets/shared/icon-hamburger.svg" alt="hambugger" class="mobile__ham ham-open visible">
+            <img src="./assets/shared/icon-close.svg" alt="hambugger" class="ham-close mobile__ham ">
+            <div class="dropdown__item">
+              <li><a href="/index.html" ><span>00 </span>Home</a></li>
+              <li><a href="destination.html"><span>01 </span>Destination</a></li>
+              <li><a href="crew.html" class="nav_active"><span>02 </span>Crew</a></li>
+              <li><a href="technology.html" ><span>03 </span>Technology</a></li>
+            </div>
+          </div>
+        </header>
+
+        <!-- crew section -->
+
+        <section class="crew">
+          <h5 class="container pick "><span>03</span> MEET YOUR CREW</h5>
+          <div class="container crew__container">
+            <div class="left__crew-container">
+              <h5 class="position"></h5>
+              <h3 class="name__crew"></h3>
+              <p class="speech"></p>
+              <div class="pagination">
+                <!-- code will be injected my javascript function -->
+              </div>
+            </div>
+            <div class="right__crew-container">
+              <img src="/assets/crew/image-douglas-hurley.webp" alt="">
+
+            </div>
+          </div>
+  
+        </section>
+      </main>
+
+    </div>
+
+
+  </body>
+  <script src="script.js"></script>
+</html>

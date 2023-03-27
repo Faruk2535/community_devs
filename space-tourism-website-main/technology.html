@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    
+    <title>technology</title>
+  
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400&family=Bellefair&display=swap" rel="stylesheet">
+  </head>
+  <body onload="techFunc()">
+    <div class="tech__background">
+      <main>
+        <header>
+          <div class="logo">
+            <img src="assets/shared/logo.svg" alt="">
+          </div>
+    
+          <div class="nav">
+            <img src="./assets/shared/icon-hamburger.svg" alt="hambugger" class="mobile__ham ham-open visible">
+            <img src="./assets/shared/icon-close.svg" alt="hambugger" class="ham-close mobile__ham ">
+            <div class="dropdown__item">
+              <li><a href="/index.html" ><span>00 </span>Home</a></li>
+              <li><a href="destination.html"><span>01 </span>Destination</a></li>
+              <li><a href="crew.html"><span>02 </span>Crew</a></li>
+              <li><a href="technology.html" class="nav_active"><span>03 </span>Technology</a></li>
+              </div>
+          </div>
+        </header>
+
+        <!-- tech section -->
+
+        <section class="tech">
+          <h5 class="container pick "><span>03</span> SPACE LAUNCH 101</h5>
+          <div class="container tech__container">
+            <div class="left__tech-container">
+              <div class="btn__round">
+                <!-- code will be injected here by json javascript  -->
+                <!-- <span class="">1</span>
+                <span>2</span>
+                <span>3</span> -->
+              </div>
+              <div class="tech__info">
+                <h6>THE TERMINOLOGY...</h6>
+                <h3 class="techname"></h3>
+                <p class="techdes"></p>
+      
+              </div>
+            </div>
+            <div class="right__tech-container">
+              <img src="/assets/technology/image-launch-vehicle-portrait.jpg" alt="" class="tech-desktop">
+              <img src="/assets/technology/image-launch-vehicle-landscape.jpg" alt="" class="tech-tabmob">
+            </div>
+          </div>
+  
+        </section>
+      </main>
+
+    </div>
+
+
+  </body>
+  <script src="script.js"></script>
+</html>

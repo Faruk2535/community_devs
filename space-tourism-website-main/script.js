@@ -136,7 +136,7 @@ function crewFunc(){
         // active crew
         crewName.innerHTML = crew[0].name.toUpperCase();
         crewimg.src = crew[0].images.webp;
-        crewRank.innerHTML = crew[0].role;
+        crewRank.innerHTML = crew[0].role.toUpperCase();
         bio.innerHTML = crew[0].bio;
         pagN.querySelectorAll('span')[0].classList.add('btnround__active');
 
@@ -155,7 +155,7 @@ function crewFunc(){
              allPagN[i].addEventListener('click',()=>{
  
                  crewName.innerHTML = crew[i].name.toUpperCase();
-                 crewRank.innerHTML = crew[i].role;
+                 crewRank.innerHTML = crew[i].role.toUpperCase();
                  bio.innerHTML = crew[i].bio;
                  crewimg.src = crew[i].images.webp;
 

@@ -54,7 +54,7 @@ function destinationFunc(){
         return explore.json()
     })
     .then(data=>{
-        console.log(data)
+        // console.log(data)
         // listing all the destinations
         let list = getElement('.list');
         let destinations = data.destinations;
@@ -73,6 +73,7 @@ function destinationFunc(){
         writeup.innerHTML = destinations[0].description;
         days.innerHTML = destinations[0].travel;
         img.src = destinations[0].images.webp;
+        document.querySelectorAll('.list li')[0].classList.add('list__active')
         // document.querySelector('.list li').style.firstChild.classList.add('list__active')
 
 
@@ -95,7 +96,20 @@ function destinationFunc(){
                 writeup.innerHTML = destinations[i].description;
                 days.innerHTML = destinations[i].travel;
                 img.src = destinations[i].images.webp;
+
+                 // remove active property and add to the click list
+
+
+                document.querySelectorAll('.list li').forEach((list)=>{
+                    list.classList.remove('list__active');
+                })
+                document.querySelectorAll('.list li')[i].classList.add('list__active');
+
+    
             })
+
+
+
             
         }
 

@@ -44,6 +44,7 @@ img{
 }
 h1{
     font-size: 150px;
+    color: rgb(241, 233, 233);
     /* display: block; */
     /* font-family: 'Barlow Condensed', sans-serif; */
 
@@ -51,6 +52,7 @@ h1{
 h2{
     font-size: 100px;
     font-family: 'Bellefair', serif;
+    color: rgb(241, 233, 233);
     /* display: block; */
 
     /* font-family: 'Barlow Condensed', sans-serif; */
@@ -59,6 +61,7 @@ h2{
 h3{
     font-size: 58px;
     font-family: 'Bellefair', serif;
+    color: rgb(241, 233, 233);
     display: block;
 
 }
@@ -401,7 +404,7 @@ font-family: 'Bellefair', serif; */
     cursor: pointer;
 }
 .list__active{
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 .list li:hover{
     border-bottom: 2px solid rgb(238, 232, 232);
@@ -492,14 +495,13 @@ font-family: 'Bellefair', serif; */
 
 
 }
-*{
+/* *{
     border: 1px solid white;
-}
+} */
 .crew__container{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    outline: 2px solid green;
 }
 .right__crew-container{
     flex: .5;

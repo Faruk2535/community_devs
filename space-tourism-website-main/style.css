@@ -658,6 +658,10 @@ font-family: 'Bellefair', serif; */
     .tech-desktop{
         display: none;
     }
+    .techname{
+        font-size: 40px;
+    }
+    
     .container{
         width: var(--md-screen);
     }

@@ -167,6 +167,8 @@ p{
     width: 100vw;
     height: 100vh;
     position: fixed;
+    overflow: auto;
+
     /* height: 80vh`; */
 } 
 
@@ -357,6 +359,8 @@ font-family: 'Bellefair', serif; */
     /* height: inherit; */
     height: 100vh;
     position: fixed;
+    overflow: auto;
+
 
 
 }
@@ -625,6 +629,8 @@ font-family: 'Bellefair', serif; */
     width: 100vw;
     height: 100vh;
     position: fixed;
+    overflow: auto;
+
 
 }
 .tech-tabmob{

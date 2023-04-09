@@ -165,6 +165,8 @@ p{
     background-size: cover;
     /* background-repeat: no-repeat; */
     width: 100vw;
+    height: 100vh;
+    position: fixed;
     /* height: 80vh`; */
 } 
 
@@ -173,7 +175,7 @@ header{
     justify-content: space-between;
     align-items: center;
     /* background-color: red; */
-    padding-block: 1rem;
+    padding-block: .5rem;
 }
 .logo{
     padding-inline:4rem;
@@ -190,7 +192,7 @@ header{
 .dropdown__item li  a{
     display: flex;
     gap: .4rem;
-    padding: .5rem 1rem;
+    padding: .2rem 1rem;
     color: white;
 }
 .dropdown__item li  a span{
@@ -351,8 +353,11 @@ font-family: 'Bellefair', serif; */
 .dest__background{
     background: url(/assets/destination/background-destination-desktop.jpg) no-repeat;
     background-size: cover;
-    width: inherit;
-    height: inherit;
+    width: 100vw;
+    /* height: inherit; */
+    height: 100vh;
+    position: fixed;
+
 
 }
 
@@ -475,10 +480,17 @@ font-family: 'Bellefair', serif; */
 .crew__background{
     background: url(/assets/crew/background-crew-desktop.jpg) no-repeat;
     background-size: cover;
-    width: inherit;
-    height: inherit;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+
+
 
 }
+/* *{
+    border: 1px solid white;
+} */
 .crew__container{
     display: flex;
     flex-direction: row;
@@ -486,6 +498,11 @@ font-family: 'Bellefair', serif; */
 }
 .right__crew-container{
     width: 100;
+}
+.left__crew-container{
+    display: flex;
+    flex-direction: column;
+    
 }
 /* .right__crew-container img{
     width: 100;
@@ -502,6 +519,11 @@ font-family: 'Bellefair', serif; */
     border-radius: 50%;
 
 }
+.name__crew{
+    font-size: 45px;
+}
+
+
 
 
 @media screen and (max-width:1200px) {
@@ -565,6 +587,10 @@ font-family: 'Bellefair', serif; */
     gap: 1.5rem;
 
 }
+.techname{
+    font-size: 45px;
+}
+
 
 
 .tech__info{
@@ -596,8 +622,9 @@ font-family: 'Bellefair', serif; */
 .tech__background{
     background: url(/assets/technology/background-technology-desktop.jpg) no-repeat;
     background-size: cover;
-    width: inherit;
-    height: inherit;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
 
 }
 .tech-tabmob{
